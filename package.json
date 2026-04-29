@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "anticaptcha": "^2.2.0",
+    "axios": "^1.15.2",
+    "axios-cookiejar-support": "^6.0.5",
+    "dotenv": "^17.4.2",
+    "node-fetch": "^3.3.2",
+    "tough-cookie": "^6.0.1"
+  }
+}
