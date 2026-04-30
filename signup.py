@@ -16,6 +16,17 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Dict, Tuple
 
+# User Agents for rotation
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0",
+]
+
 try:
     from anticaptchaofficial.turnstileproxyless import turnstileProxyless
 except ImportError:
@@ -123,7 +134,7 @@ def send_signup_request(
     timeout: int = 120
 ) -> Tuple[bool, Dict]:
     """Send signup request via curl with optional proxy"""
-    
+
     payload = json.dumps([{
         "name": "User",
         "username": username,
@@ -133,18 +144,31 @@ def send_signup_request(
         "confirmPassword": password,
         "captchaToken": captcha_token,
         "agreeLicense": True,
-        "receiveOffer": False
+        "receiveOffer": True
     }])
-    
+
     logger.info(f"Sending signup request (proxy: {'Yes' if proxy_url else 'No'})...")
-    
+
     cmd = [
         "curl", "-s", "-w", "\n%{http_code}",
         "-X", "POST",
-        "-H", "Content-Type: text/plain;charset=UTF-8",
-        "-H", "Accept: text/x-component",
-        "-H", f"Next-Action: {DEFAULT_NEXT_ACTION}",
-        "-H", "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "-H", "accept: text/x-component",
+        "-H", "accept-encoding: gzip, deflate, br, zstd",
+        "-H", "accept-language: en-GB,en-US;q=0.9,en;q=0.8",
+        "-H", "content-type: text/plain;charset=UTF-8",
+        "-H", f"next-action: {DEFAULT_NEXT_ACTION}",
+        "-H", "next-router-state-tree: %5B%22%22%2C%7B%22children%22%3A%5B%22(auth)%22%2C%7B%22children%22%3A%5B%22signup%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
+        "-H", "origin: https://marketing.moceansms.com",
+        "-H", "priority: u=1, i",
+        "-H", "referer: https://marketing.moceansms.com/signup",
+        "-H", "sec-ch-ua: \"Brave\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\"",
+        "-H", "sec-ch-ua-mobile: ?0",
+        "-H", "sec-ch-ua-platform: \"macOS\"",
+        "-H", "sec-fetch-dest: empty",
+        "-H", "sec-fetch-mode: cors",
+        "-H", "sec-fetch-site: same-origin",
+        "-H", "sec-gpc: 1",
+        "-H", "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
         "-d", payload
     ]
     
@@ -171,19 +195,24 @@ def send_signup_request(
         
         # Parse RSC response format
         response_data = {}
+        logger.debug(f"Full Response Body:\n{body}")
+
         for line in body.split("\n"):
             if line.startswith("1:"):
                 try:
                     response_data = json.loads(line[2:])
                 except:
                     pass
-        
+
+        logger.debug(f"Parsed Response: {json.dumps(response_data, indent=2)}")
+
         if response_data.get("success"):
             logger.success("Signup successful!")
             return True, response_data
         else:
             msg = response_data.get("message", "Unknown error")
             logger.error(f"Signup failed: {msg}")
+            logger.debug(f"Full Response Data: {json.dumps(response_data, indent=2)}")
             return False, response_data
     
     except subprocess.TimeoutExpired:
@@ -261,17 +290,14 @@ def signup(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="MoceanSMS Signup")
-    parser.add_argument("--email", required=True, help="Email address")
-    parser.add_argument("--username", required=True, help="Username")
+    parser.add_argument("--email", help="Email address")
+    parser.add_argument("--username", help="Username")
     parser.add_argument("--password", default="SecurePassword123!", help="Password")
     parser.add_argument("--proxy", help="Proxy URL (http://... or socks5://...)")
     parser.add_argument("--captcha", help="Pre-solved CAPTCHA token (skip solving)")
     parser.add_argument("--random", action="store_true", help="Generate random email/username")
     
     args = parser.parse_args()
-    
-    email = args.email
-    username = args.username
     
     if args.random:
         suffix = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
@@ -280,6 +306,13 @@ if __name__ == "__main__":
         logger.info(f"Generated random credentials:")
         logger.info(f"  Email: {email}")
         logger.info(f"  Username: {username}")
+    else:
+        if not args.email or not args.username:
+            parser.print_help()
+            logger.error("Either provide --email and --username OR use --random")
+            sys.exit(1)
+        email = args.email
+        username = args.username
     
     result = signup(
         email=email,
