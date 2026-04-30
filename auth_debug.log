@@ -1,0 +1,1157 @@
+2026-04-29 21:46:11,543 - INFO - 
+================================================================================
+2026-04-29 21:46:11,543 - INFO - [STEP 1] SIGN-IN
+2026-04-29 21:46:11,543 - INFO - ================================================================================
+2026-04-29 21:46:11,544 - INFO - 
+================================================================================
+2026-04-29 21:46:11,544 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:46:11,544 - INFO - ================================================================================
+2026-04-29 21:46:11,544 - INFO - Method: POST
+2026-04-29 21:46:11,544 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:46:11,544 - INFO - 
+Request Headers:
+2026-04-29 21:46:11,544 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 21:46:11,544 - INFO -   accept: text/x-component
+2026-04-29 21:46:11,544 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:46:11,544 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 21:46:11,544 - INFO - 
+Request Fields:
+2026-04-29 21:46:11,544 - INFO -   1_username: wkrishab12
+2026-04-29 21:46:11,544 - INFO -   1_password: *****
+2026-04-29 21:46:11,544 - INFO -   0: ["$K1"]
+2026-04-29 21:46:12,338 - INFO - 
+================================================================================
+2026-04-29 21:46:12,338 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:46:12,339 - INFO - ================================================================================
+2026-04-29 21:46:12,339 - INFO - Status Code: 200
+2026-04-29 21:46:12,339 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:46:12,339 - INFO - Content-Type: text/x-component
+2026-04-29 21:46:12,339 - INFO - 
+Response Headers:
+2026-04-29 21:46:12,339 - INFO -   Content-Type: text/x-component
+2026-04-29 21:46:12,339 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 21:46:12,339 - INFO - 
+Response Body (RAW - 115 chars):
+2026-04-29 21:46:12,339 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"errors":{"captcha_token":["Expected string, received null"]}}
+
+2026-04-29 21:46:12,339 - INFO - 
+================================================================================
+2026-04-29 21:46:12,339 - INFO - [RESPONSE ANALYSIS] Extracting success/error messages:
+2026-04-29 21:46:12,339 - INFO - ================================================================================
+2026-04-29 21:46:12,340 - ERROR -   [-] captcha_token: Expected string, received null
+2026-04-29 21:46:12,340 - INFO - 
+================================================================================
+2026-04-29 21:52:54,274 - INFO - 
+================================================================================
+2026-04-29 21:52:54,274 - INFO - [STEP 1] SIGN-IN
+2026-04-29 21:52:54,275 - INFO - ================================================================================
+2026-04-29 21:52:54,275 - INFO - 
+================================================================================
+2026-04-29 21:52:54,275 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:52:54,275 - INFO - ================================================================================
+2026-04-29 21:52:54,275 - INFO - Method: POST
+2026-04-29 21:52:54,275 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:52:54,275 - INFO - 
+Request Headers:
+2026-04-29 21:52:54,275 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 21:52:54,275 - INFO -   accept: text/x-component
+2026-04-29 21:52:54,275 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:52:54,275 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 21:52:54,275 - INFO - 
+Request Fields (multipart/form-data):
+2026-04-29 21:52:54,275 - INFO -   1_username: wkrishab12
+2026-04-29 21:52:54,275 - INFO -   1_password: *****
+2026-04-29 21:52:54,276 - INFO -   0: ["$K1"]
+2026-04-29 21:52:54,987 - INFO - 
+================================================================================
+2026-04-29 21:52:54,987 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:52:54,987 - INFO - ================================================================================
+2026-04-29 21:52:54,988 - INFO - Status Code: 200
+2026-04-29 21:52:54,988 - INFO - Status Reason: OK
+2026-04-29 21:52:54,988 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:52:54,988 - INFO - Content-Type: text/x-component
+2026-04-29 21:52:54,988 - INFO - 
+Response Headers:
+2026-04-29 21:52:54,988 - INFO -   Content-Type: text/x-component
+2026-04-29 21:52:54,988 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 21:52:54,988 - INFO - 
+Response Body (RAW - 115 chars):
+2026-04-29 21:52:54,988 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"errors":{"captcha_token":["Expected string, received null"]}}
+
+2026-04-29 21:52:54,988 - INFO - 
+================================================================================
+2026-04-29 21:52:54,988 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 21:52:54,988 - INFO - ================================================================================
+2026-04-29 21:52:54,989 - ERROR -   [-] captcha_token: Expected string, received null
+2026-04-29 21:52:54,989 - INFO - 
+================================================================================
+2026-04-29 21:53:05,350 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-29 21:53:05,350 - INFO - ║                     MOCEANSMS AUTHENTICATION ORCHESTRATOR                    ║
+2026-04-29 21:53:05,351 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-29 21:53:05,351 - INFO - 
+================================================================================
+2026-04-29 21:53:05,351 - INFO - [STEP 1] SIGN-IN
+2026-04-29 21:53:05,351 - INFO - ================================================================================
+2026-04-29 21:53:05,351 - INFO - 
+================================================================================
+2026-04-29 21:53:05,351 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:53:05,351 - INFO - ================================================================================
+2026-04-29 21:53:05,351 - INFO - Method: POST
+2026-04-29 21:53:05,351 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:53:05,351 - INFO - 
+Request Headers:
+2026-04-29 21:53:05,351 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 21:53:05,352 - INFO -   accept: text/x-component
+2026-04-29 21:53:05,352 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:53:05,352 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 21:53:05,352 - INFO - 
+Request Fields (multipart/form-data):
+2026-04-29 21:53:05,352 - INFO -   1_username: wkrishab12
+2026-04-29 21:53:05,352 - INFO -   1_password: *****
+2026-04-29 21:53:05,352 - INFO -   0: ["$K1"]
+2026-04-29 21:53:06,126 - INFO - 
+================================================================================
+2026-04-29 21:53:06,126 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:53:06,126 - INFO - ================================================================================
+2026-04-29 21:53:06,126 - INFO - Status Code: 200
+2026-04-29 21:53:06,126 - INFO - Status Reason: OK
+2026-04-29 21:53:06,126 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:53:06,126 - INFO - Content-Type: text/x-component
+2026-04-29 21:53:06,126 - INFO - 
+Response Headers:
+2026-04-29 21:53:06,126 - INFO -   Content-Type: text/x-component
+2026-04-29 21:53:06,126 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 21:53:06,127 - INFO - 
+Response Body (RAW - 115 chars):
+2026-04-29 21:53:06,127 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"errors":{"captcha_token":["Expected string, received null"]}}
+
+2026-04-29 21:53:06,127 - INFO - 
+================================================================================
+2026-04-29 21:53:06,127 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 21:53:06,127 - INFO - ================================================================================
+2026-04-29 21:53:06,127 - ERROR -   [-] captcha_token: Expected string, received null
+2026-04-29 21:53:06,127 - INFO - 
+================================================================================
+2026-04-29 21:53:06,127 - ERROR - 
+[✗] SIGN-IN FAILED
+2026-04-29 21:53:06,127 - ERROR - Errors: ['captcha_token: Expected string, received null']
+2026-04-29 21:53:06,127 - ERROR - 
+[!] REQUIRED: Cloudflare Turnstile CAPTCHA token
+2026-04-29 21:53:06,128 - ERROR - [*] Usage:
+2026-04-29 21:53:06,128 - ERROR -     python3 authenticate_final.py \
+2026-04-29 21:53:06,128 - ERROR -       --username USERNAME \
+2026-04-29 21:53:06,128 - ERROR -       --password PASSWORD \
+2026-04-29 21:53:06,128 - ERROR -       --captcha TURNSTILE_TOKEN
+2026-04-29 21:56:06,628 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-29 21:56:06,628 - INFO - ║                     MOCEANSMS AUTHENTICATION ORCHESTRATOR                    ║
+2026-04-29 21:56:06,629 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-29 21:56:06,629 - INFO - 
+================================================================================
+2026-04-29 21:56:06,629 - INFO - [STEP 1] SIGN-IN
+2026-04-29 21:56:06,629 - INFO - ================================================================================
+2026-04-29 21:56:06,629 - INFO - 
+================================================================================
+2026-04-29 21:56:06,629 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:56:06,629 - INFO - ================================================================================
+2026-04-29 21:56:06,629 - INFO - Method: POST
+2026-04-29 21:56:06,629 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:56:06,629 - INFO - 
+Request Headers:
+2026-04-29 21:56:06,629 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 21:56:06,629 - INFO -   accept: text/x-component
+2026-04-29 21:56:06,629 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:56:06,630 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 21:56:06,630 - INFO - 
+Request Fields (multipart/form-data):
+2026-04-29 21:56:06,630 - INFO -   1_username: wkt79906
+2026-04-29 21:56:06,630 - INFO -   1_password: *****
+2026-04-29 21:56:06,630 - INFO -   0: ["$K1"]
+2026-04-29 21:56:06,630 - INFO -   1_captcha_token: 1.VNy8VSFLuAKcPWAdnXouNGSa0Yfwfe8DHh7mOtJfBW0po1BwPqmyZUz...
+2026-04-29 21:56:07,067 - INFO - 
+================================================================================
+2026-04-29 21:56:07,067 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:56:07,067 - INFO - ================================================================================
+2026-04-29 21:56:07,068 - INFO - Status Code: 200
+2026-04-29 21:56:07,068 - INFO - Status Reason: OK
+2026-04-29 21:56:07,068 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:56:07,068 - INFO - Content-Type: text/x-component
+2026-04-29 21:56:07,068 - INFO - 
+Response Headers:
+2026-04-29 21:56:07,068 - INFO -   Content-Type: text/x-component
+2026-04-29 21:56:07,068 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 21:56:07,068 - INFO - 
+Response Body (RAW - 115 chars):
+2026-04-29 21:56:07,068 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"errors":{"captcha_token":["Expected string, received null"]}}
+
+2026-04-29 21:56:07,069 - INFO - 
+================================================================================
+2026-04-29 21:56:07,069 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 21:56:07,069 - INFO - ================================================================================
+2026-04-29 21:56:07,069 - ERROR -   [-] captcha_token: Expected string, received null
+2026-04-29 21:56:07,069 - INFO - 
+================================================================================
+2026-04-29 21:56:07,069 - ERROR - 
+[✗] SIGN-IN FAILED
+2026-04-29 21:56:07,070 - ERROR - Errors: ['captcha_token: Expected string, received null']
+2026-04-29 21:56:07,070 - ERROR - 
+[!] REQUIRED: Cloudflare Turnstile CAPTCHA token
+2026-04-29 21:56:07,070 - ERROR - [*] Usage:
+2026-04-29 21:56:07,070 - ERROR -     python3 authenticate_final.py \
+2026-04-29 21:56:07,070 - ERROR -       --username USERNAME \
+2026-04-29 21:56:07,070 - ERROR -       --password PASSWORD \
+2026-04-29 21:56:07,070 - ERROR -       --captcha TURNSTILE_TOKEN
+2026-04-29 21:57:05,544 - INFO - 
+================================================================================
+2026-04-29 21:57:05,544 - INFO - [STEP 1] SIGN-IN
+2026-04-29 21:57:05,544 - INFO - ================================================================================
+2026-04-29 21:57:05,544 - INFO - 
+================================================================================
+2026-04-29 21:57:05,544 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:57:05,544 - INFO - ================================================================================
+2026-04-29 21:57:05,544 - INFO - Method: POST
+2026-04-29 21:57:05,545 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:57:05,545 - INFO - 
+Request Headers:
+2026-04-29 21:57:05,545 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 21:57:05,545 - INFO -   accept: text/x-component
+2026-04-29 21:57:05,545 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:57:05,545 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 21:57:05,545 - INFO - 
+Request Fields (multipart/form-data):
+2026-04-29 21:57:05,545 - INFO -   1_username: wkrishab12
+2026-04-29 21:57:05,545 - INFO -   1_password: *****
+2026-04-29 21:57:05,545 - INFO -   0: ["$K1"]
+2026-04-29 21:57:05,545 - INFO -   1_captcha_token: 1.muy2QZ71KMRK0tAqlmsyGhdl1aaqL4RuTzyboGNU8ovU_L8B_ky8Ewt...
+2026-04-29 21:57:06,160 - INFO - 
+================================================================================
+2026-04-29 21:57:06,160 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:57:06,161 - INFO - ================================================================================
+2026-04-29 21:57:06,161 - INFO - Status Code: 200
+2026-04-29 21:57:06,161 - INFO - Status Reason: OK
+2026-04-29 21:57:06,161 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:57:06,161 - INFO - Content-Type: text/x-component
+2026-04-29 21:57:06,161 - INFO - 
+Response Headers:
+2026-04-29 21:57:06,161 - INFO -   Content-Type: text/x-component
+2026-04-29 21:57:06,161 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 21:57:06,161 - INFO - 
+Response Body (RAW - 115 chars):
+2026-04-29 21:57:06,162 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"errors":{"captcha_token":["Expected string, received null"]}}
+
+2026-04-29 21:57:06,162 - INFO - 
+================================================================================
+2026-04-29 21:57:06,162 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 21:57:06,162 - INFO - ================================================================================
+2026-04-29 21:57:06,162 - ERROR -   [-] captcha_token: Expected string, received null
+2026-04-29 21:57:06,163 - INFO - 
+================================================================================
+2026-04-29 21:57:16,958 - INFO - 
+================================================================================
+2026-04-29 21:57:16,958 - INFO - [STEP 2] VERIFY OTP
+2026-04-29 21:57:16,958 - INFO - ================================================================================
+2026-04-29 21:57:16,958 - INFO - 
+================================================================================
+2026-04-29 21:57:16,958 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:57:16,958 - INFO - ================================================================================
+2026-04-29 21:57:16,958 - INFO - Method: POST
+2026-04-29 21:57:16,959 - INFO - URL: https://marketing.moceansms.com/api/signup/verify
+2026-04-29 21:57:16,959 - INFO - 
+Request Headers:
+2026-04-29 21:57:16,959 - INFO -   content-type: application/json
+2026-04-29 21:57:16,959 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:57:16,959 - INFO - 
+Request Body (JSON):
+2026-04-29 21:57:16,959 - INFO -   {
+  "otp_code": "*****",
+  "token": "3081%7CFXuZo6oVawdPyWOkgSClZun9ju4iMDhuWJFXreLH42be06ae"
+}
+2026-04-29 21:57:17,597 - INFO - 
+================================================================================
+2026-04-29 21:57:17,597 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:57:17,597 - INFO - ================================================================================
+2026-04-29 21:57:17,598 - INFO - Status Code: 404
+2026-04-29 21:57:17,598 - INFO - Status Reason: Not Found
+2026-04-29 21:57:17,598 - INFO - URL: https://marketing.moceansms.com/api/signup/verify
+2026-04-29 21:57:17,598 - INFO - Content-Type: text/html; charset=utf-8
+2026-04-29 21:57:17,598 - INFO - 
+Response Headers:
+2026-04-29 21:57:17,598 - INFO -   Content-Type: text/html; charset=utf-8
+2026-04-29 21:57:17,598 - INFO - 
+Response Body (RAW - 26039 chars):
+2026-04-29 21:57:17,598 - INFO - <!DOCTYPE html><html lang="en" class="__variable_f367f3"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/b7a103c3a9020d69.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/081a0afca5a9bd20.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-4a2c50f044ec839a.js"/><script src="/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js" async=""></script><script src="/_next/static/chunks/1255-53890570d1c6663a.js" async=""></script><script src="/_next/static/chunks/main-app-f3336e172256d2ab.js" async=""></script><script src="/_next/static/chunks/1356-6900f8a8b6ac9b42.js" async=""></script><script src="/_next/static/chu
+...[TRUNCATED AT 800 CHARS]
+2026-04-29 21:57:17,598 - INFO - 
+================================================================================
+2026-04-29 21:57:17,598 - INFO - [RESPONSE ANALYSIS] Parsing OTP verification response:
+2026-04-29 21:57:17,598 - INFO - ================================================================================
+2026-04-29 21:57:17,599 - ERROR -   [-] Unexpected status: 404
+2026-04-29 21:57:17,599 - INFO - 
+================================================================================
+2026-04-29 21:59:10,603 - INFO - 
+================================================================================
+2026-04-29 21:59:10,604 - INFO - [STEP 1] SIGN-IN
+2026-04-29 21:59:10,604 - INFO - ================================================================================
+2026-04-29 21:59:10,604 - INFO - 
+================================================================================
+2026-04-29 21:59:10,604 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:59:10,604 - INFO - ================================================================================
+2026-04-29 21:59:10,604 - INFO - Method: POST
+2026-04-29 21:59:10,604 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:59:10,605 - INFO - 
+Request Headers:
+2026-04-29 21:59:10,605 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 21:59:10,605 - INFO -   accept: text/x-component
+2026-04-29 21:59:10,605 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:59:10,605 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 21:59:10,605 - INFO - 
+Request Fields (multipart/form-data):
+2026-04-29 21:59:10,605 - INFO -   1_username: wkrishab1
+2026-04-29 21:59:10,605 - INFO -   1_password: *****
+2026-04-29 21:59:10,605 - INFO -   0: ["$K1"]
+2026-04-29 21:59:10,605 - INFO -   1_captcha_token: 1.rY2eAa5j4PwdRxw4MSuFh78WIRm5mvmyVi0vkDVN9MGUwvysgv5_wrN...
+2026-04-29 21:59:11,589 - INFO - 
+================================================================================
+2026-04-29 21:59:11,589 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:59:11,589 - INFO - ================================================================================
+2026-04-29 21:59:11,589 - INFO - Status Code: 200
+2026-04-29 21:59:11,589 - INFO - Status Reason: OK
+2026-04-29 21:59:11,589 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:59:11,589 - INFO - Content-Type: text/x-component
+2026-04-29 21:59:11,589 - INFO - 
+Response Headers:
+2026-04-29 21:59:11,589 - INFO -   Content-Type: text/x-component
+2026-04-29 21:59:11,590 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 21:59:11,590 - INFO - 
+Response Body (RAW - 115 chars):
+2026-04-29 21:59:11,590 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"errors":{"captcha_token":["Expected string, received null"]}}
+
+2026-04-29 21:59:11,590 - INFO - 
+================================================================================
+2026-04-29 21:59:11,590 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 21:59:11,590 - INFO - ================================================================================
+2026-04-29 21:59:11,590 - ERROR -   [-] captcha_token: Expected string, received null
+2026-04-29 21:59:11,590 - INFO - 
+================================================================================
+2026-04-29 21:59:25,667 - INFO - 
+================================================================================
+2026-04-29 21:59:25,667 - INFO - [STEP 1] SIGN-IN
+2026-04-29 21:59:25,668 - INFO - ================================================================================
+2026-04-29 21:59:25,668 - INFO - 
+================================================================================
+2026-04-29 21:59:25,668 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 21:59:25,668 - INFO - ================================================================================
+2026-04-29 21:59:25,668 - INFO - Method: POST
+2026-04-29 21:59:25,668 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:59:25,668 - INFO - 
+Request Headers:
+2026-04-29 21:59:25,668 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 21:59:25,668 - INFO -   accept: text/x-component
+2026-04-29 21:59:25,668 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 21:59:25,668 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 21:59:25,668 - INFO - 
+Request Fields (multipart/form-data):
+2026-04-29 21:59:25,668 - INFO -   1_username: wkrishab1
+2026-04-29 21:59:25,668 - INFO -   1_password: *****
+2026-04-29 21:59:25,669 - INFO -   0: ["$K1"]
+2026-04-29 21:59:26,148 - INFO - 
+================================================================================
+2026-04-29 21:59:26,148 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 21:59:26,148 - INFO - ================================================================================
+2026-04-29 21:59:26,148 - INFO - Status Code: 200
+2026-04-29 21:59:26,148 - INFO - Status Reason: OK
+2026-04-29 21:59:26,148 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 21:59:26,148 - INFO - Content-Type: text/x-component
+2026-04-29 21:59:26,148 - INFO - 
+Response Headers:
+2026-04-29 21:59:26,149 - INFO -   Content-Type: text/x-component
+2026-04-29 21:59:26,149 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 21:59:26,149 - INFO - 
+Response Body (RAW - 115 chars):
+2026-04-29 21:59:26,149 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"errors":{"captcha_token":["Expected string, received null"]}}
+
+2026-04-29 21:59:26,149 - INFO - 
+================================================================================
+2026-04-29 21:59:26,149 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 21:59:26,149 - INFO - ================================================================================
+2026-04-29 21:59:26,150 - ERROR -   [-] captcha_token: Expected string, received null
+2026-04-29 21:59:26,150 - INFO - 
+================================================================================
+2026-04-29 22:04:01,190 - INFO - 
+================================================================================
+2026-04-29 22:04:01,190 - INFO - [STEP 1] SIGN-IN
+2026-04-29 22:04:01,190 - INFO - ================================================================================
+2026-04-29 22:04:01,190 - INFO - 
+================================================================================
+2026-04-29 22:04:01,190 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 22:04:01,190 - INFO - ================================================================================
+2026-04-29 22:04:01,190 - INFO - Method: POST
+2026-04-29 22:04:01,190 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:04:01,190 - INFO - 
+Request Headers:
+2026-04-29 22:04:01,190 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 22:04:01,190 - INFO -   accept: text/x-component
+2026-04-29 22:04:01,191 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-29 22:04:01,191 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 22:04:01,191 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 22:04:01,191 - INFO - 
+Request Body (JSON wire format):
+2026-04-29 22:04:01,191 - INFO -   [
+  {
+    "username": "wkrishab1",
+    "password": "*****",
+    "captcha_token": "1.rY2eAa5j4PwdRxw4MS..."
+  }
+]
+2026-04-29 22:04:01,636 - INFO - 
+================================================================================
+2026-04-29 22:04:01,636 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 22:04:01,636 - INFO - ================================================================================
+2026-04-29 22:04:01,636 - INFO - Status Code: 500
+2026-04-29 22:04:01,636 - INFO - Status Reason: Internal Server Error
+2026-04-29 22:04:01,636 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:04:01,636 - INFO - Content-Type: text/x-component
+2026-04-29 22:04:01,636 - INFO - 
+Response Headers:
+2026-04-29 22:04:01,637 - INFO -   Content-Type: text/x-component
+2026-04-29 22:04:01,637 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 22:04:01,637 - INFO - 
+Response Body (RAW - 76 chars):
+2026-04-29 22:04:01,637 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:E{"digest":"3584631790"}
+
+2026-04-29 22:04:01,637 - INFO - 
+================================================================================
+2026-04-29 22:04:01,637 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 22:04:01,637 - INFO - ================================================================================
+2026-04-29 22:04:01,637 - INFO - 
+================================================================================
+2026-04-29 22:04:08,613 - INFO - 
+================================================================================
+2026-04-29 22:04:08,614 - INFO - [STEP 1] SIGN-IN
+2026-04-29 22:04:08,614 - INFO - ================================================================================
+2026-04-29 22:04:08,614 - INFO - 
+================================================================================
+2026-04-29 22:04:08,614 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 22:04:08,614 - INFO - ================================================================================
+2026-04-29 22:04:08,614 - INFO - Method: POST
+2026-04-29 22:04:08,614 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:04:08,614 - INFO - 
+Request Headers:
+2026-04-29 22:04:08,614 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 22:04:08,615 - INFO -   accept: text/x-component
+2026-04-29 22:04:08,615 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-29 22:04:08,615 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 22:04:08,615 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 22:04:08,615 - INFO - 
+Request Body (JSON wire format):
+2026-04-29 22:04:08,616 - INFO -   [
+  {
+    "username": "wkrishab1",
+    "password": "*****"
+  }
+]
+2026-04-29 22:04:09,087 - INFO - 
+================================================================================
+2026-04-29 22:04:09,087 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 22:04:09,087 - INFO - ================================================================================
+2026-04-29 22:04:09,087 - INFO - Status Code: 500
+2026-04-29 22:04:09,087 - INFO - Status Reason: Internal Server Error
+2026-04-29 22:04:09,087 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:04:09,087 - INFO - Content-Type: text/x-component
+2026-04-29 22:04:09,087 - INFO - 
+Response Headers:
+2026-04-29 22:04:09,088 - INFO -   Content-Type: text/x-component
+2026-04-29 22:04:09,088 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 22:04:09,088 - INFO - 
+Response Body (RAW - 76 chars):
+2026-04-29 22:04:09,088 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:E{"digest":"3584631790"}
+
+2026-04-29 22:04:09,088 - INFO - 
+================================================================================
+2026-04-29 22:04:09,088 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 22:04:09,088 - INFO - ================================================================================
+2026-04-29 22:04:09,088 - INFO - 
+================================================================================
+2026-04-29 22:07:00,726 - INFO - 
+================================================================================
+2026-04-29 22:07:00,727 - INFO - [STEP 1] SIGN-IN
+2026-04-29 22:07:00,727 - INFO - ================================================================================
+2026-04-29 22:07:00,727 - INFO - 
+================================================================================
+2026-04-29 22:07:00,727 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 22:07:00,727 - INFO - ================================================================================
+2026-04-29 22:07:00,727 - INFO - Method: POST
+2026-04-29 22:07:00,727 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:07:00,727 - INFO - 
+Request Headers:
+2026-04-29 22:07:00,727 - INFO -   next-action: 404f077d184e097f9f8779873fc060e09d1682ddc7
+2026-04-29 22:07:00,727 - INFO -   accept: text/x-component
+2026-04-29 22:07:00,727 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-29 22:07:00,727 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 22:07:00,728 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 22:07:00,728 - INFO - 
+Request Body (JSON wire format):
+2026-04-29 22:07:00,728 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****",
+    "captcha_token": "1.hbvoStzPTToQbJ8Gee..."
+  }
+]
+2026-04-29 22:07:01,341 - INFO - 
+================================================================================
+2026-04-29 22:07:01,341 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 22:07:01,342 - INFO - ================================================================================
+2026-04-29 22:07:01,342 - INFO - Status Code: 500
+2026-04-29 22:07:01,342 - INFO - Status Reason: Internal Server Error
+2026-04-29 22:07:01,342 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:07:01,342 - INFO - Content-Type: text/x-component
+2026-04-29 22:07:01,342 - INFO - 
+Response Headers:
+2026-04-29 22:07:01,342 - INFO -   Content-Type: text/x-component
+2026-04-29 22:07:01,342 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 22:07:01,342 - INFO - 
+Response Body (RAW - 76 chars):
+2026-04-29 22:07:01,342 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:E{"digest":"3584631790"}
+
+2026-04-29 22:07:01,342 - INFO - 
+================================================================================
+2026-04-29 22:07:01,342 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 22:07:01,342 - INFO - ================================================================================
+2026-04-29 22:07:01,343 - INFO - 
+================================================================================
+2026-04-29 22:07:30,562 - INFO - 
+================================================================================
+2026-04-29 22:07:30,562 - INFO - [STEP 1] SIGN-IN
+2026-04-29 22:07:30,562 - INFO - ================================================================================
+2026-04-29 22:07:30,562 - INFO - 
+================================================================================
+2026-04-29 22:07:30,562 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 22:07:30,562 - INFO - ================================================================================
+2026-04-29 22:07:30,563 - INFO - Method: POST
+2026-04-29 22:07:30,563 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:07:30,563 - INFO - 
+Request Headers:
+2026-04-29 22:07:30,563 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-29 22:07:30,563 - INFO -   accept: text/x-component
+2026-04-29 22:07:30,563 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-29 22:07:30,563 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 22:07:30,563 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 22:07:30,563 - INFO - 
+Request Body (JSON wire format):
+2026-04-29 22:07:30,563 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****",
+    "captcha_token": "1.hbvoStzPTToQbJ8Gee..."
+  }
+]
+2026-04-29 22:07:31,394 - INFO - 
+================================================================================
+2026-04-29 22:07:31,394 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 22:07:31,394 - INFO - ================================================================================
+2026-04-29 22:07:31,394 - INFO - Status Code: 200
+2026-04-29 22:07:31,394 - INFO - Status Reason: OK
+2026-04-29 22:07:31,394 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:07:31,394 - INFO - Content-Type: text/x-component
+2026-04-29 22:07:31,394 - INFO - 
+Response Headers:
+2026-04-29 22:07:31,394 - INFO -   Content-Type: text/x-component
+2026-04-29 22:07:31,394 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 22:07:31,394 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-29 22:07:31,395 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"579cf587-d782-4636-946a-6c1efa189775"}
+
+2026-04-29 22:07:31,395 - INFO - 
+================================================================================
+2026-04-29 22:07:31,395 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 22:07:31,395 - INFO - ================================================================================
+2026-04-29 22:07:31,395 - INFO - [+] Sign-in successful
+2026-04-29 22:07:31,395 - INFO - 
+================================================================================
+2026-04-29 22:08:07,640 - INFO - 
+================================================================================
+2026-04-29 22:08:07,641 - INFO - [STEP 1] SIGN-IN
+2026-04-29 22:08:07,641 - INFO - ================================================================================
+2026-04-29 22:08:07,641 - INFO - 
+================================================================================
+2026-04-29 22:08:07,641 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 22:08:07,641 - INFO - ================================================================================
+2026-04-29 22:08:07,641 - INFO - Method: POST
+2026-04-29 22:08:07,641 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:08:07,641 - INFO - 
+Request Headers:
+2026-04-29 22:08:07,642 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-29 22:08:07,642 - INFO -   accept: text/x-component
+2026-04-29 22:08:07,642 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-29 22:08:07,642 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 22:08:07,642 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 22:08:07,642 - INFO - 
+Request Body (JSON wire format):
+2026-04-29 22:08:07,642 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****",
+    "captcha_token": "1.hbvoStzPTToQbJ8Gee..."
+  }
+]
+2026-04-29 22:08:08,171 - INFO - 
+================================================================================
+2026-04-29 22:08:08,171 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 22:08:08,171 - INFO - ================================================================================
+2026-04-29 22:08:08,171 - INFO - Status Code: 200
+2026-04-29 22:08:08,171 - INFO - Status Reason: OK
+2026-04-29 22:08:08,171 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:08:08,171 - INFO - Content-Type: text/x-component
+2026-04-29 22:08:08,171 - INFO - 
+Response Headers:
+2026-04-29 22:08:08,171 - INFO -   Content-Type: text/x-component
+2026-04-29 22:08:08,172 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 22:08:08,172 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-29 22:08:08,172 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"ee0b8543-8ab8-4844-9351-a70783fb7ac2"}
+
+2026-04-29 22:08:08,172 - INFO - 
+================================================================================
+2026-04-29 22:08:08,172 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 22:08:08,172 - INFO - ================================================================================
+2026-04-29 22:08:08,172 - ERROR -   [-] Recaptcha Invalid
+2026-04-29 22:08:08,172 - INFO - 
+================================================================================
+2026-04-29 22:08:16,003 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-29 22:08:16,003 - INFO - ║                     MOCEANSMS AUTHENTICATION ORCHESTRATOR                    ║
+2026-04-29 22:08:16,003 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-29 22:08:16,003 - INFO - 
+================================================================================
+2026-04-29 22:08:16,003 - INFO - [STEP 1] SIGN-IN
+2026-04-29 22:08:16,003 - INFO - ================================================================================
+2026-04-29 22:08:16,003 - INFO - 
+================================================================================
+2026-04-29 22:08:16,003 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-29 22:08:16,004 - INFO - ================================================================================
+2026-04-29 22:08:16,004 - INFO - Method: POST
+2026-04-29 22:08:16,004 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:08:16,004 - INFO - 
+Request Headers:
+2026-04-29 22:08:16,004 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-29 22:08:16,004 - INFO -   accept: text/x-component
+2026-04-29 22:08:16,004 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-29 22:08:16,004 - INFO -   origin: https://marketing.moceansms.com
+2026-04-29 22:08:16,004 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-29 22:08:16,004 - INFO - 
+Request Body (JSON wire format):
+2026-04-29 22:08:16,004 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****"
+  }
+]
+2026-04-29 22:08:17,016 - INFO - 
+================================================================================
+2026-04-29 22:08:17,016 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-29 22:08:17,016 - INFO - ================================================================================
+2026-04-29 22:08:17,016 - INFO - Status Code: 200
+2026-04-29 22:08:17,016 - INFO - Status Reason: OK
+2026-04-29 22:08:17,016 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-29 22:08:17,016 - INFO - Content-Type: text/x-component
+2026-04-29 22:08:17,017 - INFO - 
+Response Headers:
+2026-04-29 22:08:17,017 - INFO -   Content-Type: text/x-component
+2026-04-29 22:08:17,017 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-29 22:08:17,017 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-29 22:08:17,017 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"3a34dbe9-6a40-4f10-9a3e-88bf25a19ac1"}
+
+2026-04-29 22:08:17,017 - INFO - 
+================================================================================
+2026-04-29 22:08:17,017 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-29 22:08:17,017 - INFO - ================================================================================
+2026-04-29 22:08:17,018 - ERROR -   [-] Recaptcha Invalid
+2026-04-29 22:08:17,018 - INFO - 
+================================================================================
+2026-04-29 22:08:17,018 - ERROR - 
+[✗] SIGN-IN FAILED
+2026-04-29 22:08:17,018 - ERROR - Errors: ['Recaptcha Invalid']
+2026-04-30 00:10:45,341 - INFO - 
+================================================================================
+2026-04-30 00:10:45,341 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:10:45,341 - INFO - ================================================================================
+2026-04-30 00:10:45,341 - INFO - 
+================================================================================
+2026-04-30 00:10:45,342 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:10:45,342 - INFO - ================================================================================
+2026-04-30 00:10:45,342 - INFO - Method: POST
+2026-04-30 00:10:45,342 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:10:45,342 - INFO - 
+Request Headers:
+2026-04-30 00:10:45,342 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:10:45,342 - INFO -   accept: text/x-component
+2026-04-30 00:10:45,342 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:10:45,342 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:10:45,342 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:10:45,342 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:10:45,342 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****"
+  }
+]
+2026-04-30 00:10:46,881 - INFO - 
+================================================================================
+2026-04-30 00:10:46,881 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:10:46,882 - INFO - ================================================================================
+2026-04-30 00:10:46,882 - INFO - Status Code: 200
+2026-04-30 00:10:46,882 - INFO - Status Reason: OK
+2026-04-30 00:10:46,882 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:10:46,882 - INFO - Content-Type: text/x-component
+2026-04-30 00:10:46,882 - INFO - 
+Response Headers:
+2026-04-30 00:10:46,882 - INFO -   Content-Type: text/x-component
+2026-04-30 00:10:46,882 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:10:46,882 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:10:46,882 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"fde8555f-051d-4c10-949e-77dbea77f065"}
+
+2026-04-30 00:10:46,882 - INFO - 
+================================================================================
+2026-04-30 00:10:46,883 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:10:46,883 - INFO - ================================================================================
+2026-04-30 00:10:46,883 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:10:46,883 - INFO - 
+================================================================================
+2026-04-30 00:11:38,648 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-30 00:11:38,648 - INFO - ║                    MOCEANSMS COMPLETE AUTHENTICATION FLOW                    ║
+2026-04-30 00:11:38,648 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-30 00:11:38,649 - INFO - 
+================================================================================
+2026-04-30 00:11:38,649 - INFO - [STEP 1/2] SIGN-IN
+2026-04-30 00:11:38,649 - INFO - ================================================================================
+2026-04-30 00:11:38,649 - INFO - 
+================================================================================
+2026-04-30 00:11:38,649 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:11:38,649 - INFO - ================================================================================
+2026-04-30 00:11:38,649 - INFO - 
+================================================================================
+2026-04-30 00:11:38,649 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:11:38,649 - INFO - ================================================================================
+2026-04-30 00:11:38,650 - INFO - Method: POST
+2026-04-30 00:11:38,650 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:11:38,650 - INFO - 
+Request Headers:
+2026-04-30 00:11:38,650 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:11:38,650 - INFO -   accept: text/x-component
+2026-04-30 00:11:38,650 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:11:38,650 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:11:38,650 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:11:38,650 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:11:38,650 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****"
+  }
+]
+2026-04-30 00:11:39,121 - INFO - 
+================================================================================
+2026-04-30 00:11:39,121 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:11:39,121 - INFO - ================================================================================
+2026-04-30 00:11:39,121 - INFO - Status Code: 200
+2026-04-30 00:11:39,121 - INFO - Status Reason: OK
+2026-04-30 00:11:39,121 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:11:39,122 - INFO - Content-Type: text/x-component
+2026-04-30 00:11:39,122 - INFO - 
+Response Headers:
+2026-04-30 00:11:39,122 - INFO -   Content-Type: text/x-component
+2026-04-30 00:11:39,122 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:11:39,122 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:11:39,122 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"d16deb44-baf8-4a20-b71d-d2b93e28a3f7"}
+
+2026-04-30 00:11:39,122 - INFO - 
+================================================================================
+2026-04-30 00:11:39,122 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:11:39,122 - INFO - ================================================================================
+2026-04-30 00:11:39,122 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:11:39,122 - INFO - 
+================================================================================
+2026-04-30 00:11:39,123 - ERROR - 
+[✗] SIGN-IN FAILED
+2026-04-30 00:11:39,123 - ERROR - Errors: ['Recaptcha Invalid']
+2026-04-30 00:11:39,123 - ERROR - 
+[!] REQUIRED: Valid Cloudflare Turnstile CAPTCHA token
+2026-04-30 00:11:39,123 - ERROR - [*] Get CAPTCHA token from signin page or use signup token
+2026-04-30 00:15:13,002 - INFO - 
+================================================================================
+2026-04-30 00:15:13,002 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:15:13,002 - INFO - ================================================================================
+2026-04-30 00:15:13,002 - INFO - 
+================================================================================
+2026-04-30 00:15:13,002 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:15:13,003 - INFO - ================================================================================
+2026-04-30 00:15:13,003 - INFO - Method: POST
+2026-04-30 00:15:13,003 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:15:13,003 - INFO - 
+Request Headers:
+2026-04-30 00:15:13,003 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:15:13,003 - INFO -   accept: text/x-component
+2026-04-30 00:15:13,003 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:15:13,003 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:15:13,003 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:15:13,003 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:15:13,003 - INFO -   [
+  {
+    "username": "wkreal88246",
+    "password": "*****",
+    "captcha_token": "1.I1rw8VPm2miX3E18Vl..."
+  }
+]
+2026-04-30 00:15:13,475 - INFO - 
+================================================================================
+2026-04-30 00:15:13,475 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:15:13,475 - INFO - ================================================================================
+2026-04-30 00:15:13,476 - INFO - Status Code: 200
+2026-04-30 00:15:13,476 - INFO - Status Reason: OK
+2026-04-30 00:15:13,476 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:15:13,476 - INFO - Content-Type: text/x-component
+2026-04-30 00:15:13,476 - INFO - 
+Response Headers:
+2026-04-30 00:15:13,476 - INFO -   Content-Type: text/x-component
+2026-04-30 00:15:13,476 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:15:13,476 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:15:13,476 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"1adf419b-480f-4054-b256-613357df02ae"}
+
+2026-04-30 00:15:13,476 - INFO - 
+================================================================================
+2026-04-30 00:15:13,476 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:15:13,476 - INFO - ================================================================================
+2026-04-30 00:15:13,477 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:15:13,477 - INFO - 
+================================================================================
+2026-04-30 00:17:16,161 - INFO - 
+[*] No CAPTCHA token provided, attempting automatic solve...
+2026-04-30 00:17:16,162 - INFO - 
+[*] Solving CAPTCHA via Anti-Captcha API...
+2026-04-30 00:17:16,162 - ERROR - [-] CAPTCHA solving exception: 'turnstileProxyless' object has no attribute 'set_api_key'
+2026-04-30 00:17:16,162 - INFO - 
+================================================================================
+2026-04-30 00:17:16,162 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:17:16,162 - INFO - ================================================================================
+2026-04-30 00:17:16,162 - INFO - 
+================================================================================
+2026-04-30 00:17:16,162 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:17:16,162 - INFO - ================================================================================
+2026-04-30 00:17:16,162 - INFO - Method: POST
+2026-04-30 00:17:16,162 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:17:16,162 - INFO - 
+Request Headers:
+2026-04-30 00:17:16,162 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:17:16,163 - INFO -   accept: text/x-component
+2026-04-30 00:17:16,163 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:17:16,163 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:17:16,163 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:17:16,163 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:17:16,163 - INFO -   [
+  {
+    "username": "wkreal88246",
+    "password": "*****"
+  }
+]
+2026-04-30 00:17:16,792 - INFO - 
+================================================================================
+2026-04-30 00:17:16,792 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:17:16,792 - INFO - ================================================================================
+2026-04-30 00:17:16,792 - INFO - Status Code: 200
+2026-04-30 00:17:16,792 - INFO - Status Reason: OK
+2026-04-30 00:17:16,793 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:17:16,793 - INFO - Content-Type: text/x-component
+2026-04-30 00:17:16,793 - INFO - 
+Response Headers:
+2026-04-30 00:17:16,793 - INFO -   Content-Type: text/x-component
+2026-04-30 00:17:16,793 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:17:16,793 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:17:16,793 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"15e4d2b0-b4b0-488f-8229-f14e44eef170"}
+
+2026-04-30 00:17:16,793 - INFO - 
+================================================================================
+2026-04-30 00:17:16,793 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:17:16,793 - INFO - ================================================================================
+2026-04-30 00:17:16,794 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:17:16,794 - INFO - 
+================================================================================
+2026-04-30 00:17:31,623 - INFO - 
+[*] No CAPTCHA token provided, attempting automatic solve...
+2026-04-30 00:17:31,623 - INFO - 
+[*] Solving CAPTCHA via Anti-Captcha API...
+2026-04-30 00:17:56,704 - INFO - [+] CAPTCHA solved successfully
+2026-04-30 00:17:56,704 - INFO - 
+================================================================================
+2026-04-30 00:17:56,704 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:17:56,705 - INFO - ================================================================================
+2026-04-30 00:17:56,705 - INFO - 
+================================================================================
+2026-04-30 00:17:56,705 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:17:56,705 - INFO - ================================================================================
+2026-04-30 00:17:56,705 - INFO - Method: POST
+2026-04-30 00:17:56,705 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:17:56,705 - INFO - 
+Request Headers:
+2026-04-30 00:17:56,705 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:17:56,705 - INFO -   accept: text/x-component
+2026-04-30 00:17:56,705 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:17:56,706 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:17:56,706 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:17:56,706 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:17:56,706 - INFO -   [
+  {
+    "username": "wkreal88246",
+    "password": "*****",
+    "captcha_token": "1.TYPUNR724t2gYXTbCW..."
+  }
+]
+2026-04-30 00:17:57,151 - INFO - 
+================================================================================
+2026-04-30 00:17:57,151 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:17:57,151 - INFO - ================================================================================
+2026-04-30 00:17:57,151 - INFO - Status Code: 200
+2026-04-30 00:17:57,151 - INFO - Status Reason: OK
+2026-04-30 00:17:57,151 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:17:57,151 - INFO - Content-Type: text/x-component
+2026-04-30 00:17:57,151 - INFO - 
+Response Headers:
+2026-04-30 00:17:57,151 - INFO -   Content-Type: text/x-component
+2026-04-30 00:17:57,152 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:17:57,152 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:17:57,152 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"d3e40eb3-643b-4c36-8f34-977c003b4218"}
+
+2026-04-30 00:17:57,152 - INFO - 
+================================================================================
+2026-04-30 00:17:57,152 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:17:57,152 - INFO - ================================================================================
+2026-04-30 00:17:57,152 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:17:57,152 - INFO - 
+================================================================================
+2026-04-30 00:20:12,859 - INFO - 
+[*] No CAPTCHA token provided, attempting automatic solve...
+2026-04-30 00:20:12,859 - INFO - 
+[*] Solving CAPTCHA via Anti-Captcha API...
+2026-04-30 00:20:44,308 - INFO - [+] CAPTCHA solved successfully
+2026-04-30 00:20:44,309 - INFO - 
+================================================================================
+2026-04-30 00:20:44,309 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:20:44,309 - INFO - ================================================================================
+2026-04-30 00:20:44,309 - INFO - 
+================================================================================
+2026-04-30 00:20:44,310 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:20:44,310 - INFO - ================================================================================
+2026-04-30 00:20:44,310 - INFO - Method: POST
+2026-04-30 00:20:44,310 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:20:44,310 - INFO - 
+Request Headers:
+2026-04-30 00:20:44,310 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:20:44,310 - INFO -   accept: text/x-component
+2026-04-30 00:20:44,310 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:20:44,310 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:20:44,310 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:20:44,310 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:20:44,310 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****",
+    "captcha_token": "1.GjkoAPogp0gqxpcKiA..."
+  }
+]
+2026-04-30 00:20:45,171 - INFO - 
+================================================================================
+2026-04-30 00:20:45,171 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:20:45,171 - INFO - ================================================================================
+2026-04-30 00:20:45,172 - INFO - Status Code: 200
+2026-04-30 00:20:45,172 - INFO - Status Reason: OK
+2026-04-30 00:20:45,172 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:20:45,172 - INFO - Content-Type: text/x-component
+2026-04-30 00:20:45,172 - INFO - 
+Response Headers:
+2026-04-30 00:20:45,172 - INFO -   Content-Type: text/x-component
+2026-04-30 00:20:45,172 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:20:45,172 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:20:45,172 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"326ec43f-bc5b-4d46-9efc-4720968a8c2e"}
+
+2026-04-30 00:20:45,173 - INFO - 
+================================================================================
+2026-04-30 00:20:45,173 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:20:45,173 - INFO - ================================================================================
+2026-04-30 00:20:45,173 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:20:45,173 - INFO - 
+================================================================================
+2026-04-30 00:20:50,750 - INFO - 
+================================================================================
+2026-04-30 00:20:50,751 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:20:50,751 - INFO - ================================================================================
+2026-04-30 00:20:50,751 - INFO - 
+================================================================================
+2026-04-30 00:20:50,751 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:20:50,751 - INFO - ================================================================================
+2026-04-30 00:20:50,751 - INFO - Method: POST
+2026-04-30 00:20:50,751 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:20:50,751 - INFO - 
+Request Headers:
+2026-04-30 00:20:50,751 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:20:50,751 - INFO -   accept: text/x-component
+2026-04-30 00:20:50,751 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:20:50,751 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:20:50,751 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:20:50,752 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:20:50,752 - INFO -   [
+  {
+    "username": "wkrishab12",
+    "password": "*****",
+    "captcha_token": "skip_auto_solve..."
+  }
+]
+2026-04-30 00:20:51,285 - INFO - 
+================================================================================
+2026-04-30 00:20:51,285 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:20:51,285 - INFO - ================================================================================
+2026-04-30 00:20:51,285 - INFO - Status Code: 200
+2026-04-30 00:20:51,285 - INFO - Status Reason: OK
+2026-04-30 00:20:51,285 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:20:51,285 - INFO - Content-Type: text/x-component
+2026-04-30 00:20:51,285 - INFO - 
+Response Headers:
+2026-04-30 00:20:51,285 - INFO -   Content-Type: text/x-component
+2026-04-30 00:20:51,286 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:20:51,286 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:20:51,286 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"623020ef-88a1-49fa-a4b7-7643659129d4"}
+
+2026-04-30 00:20:51,286 - INFO - 
+================================================================================
+2026-04-30 00:20:51,286 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:20:51,286 - INFO - ================================================================================
+2026-04-30 00:20:51,286 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:20:51,286 - INFO - 
+================================================================================
+2026-04-30 00:21:12,872 - INFO - 
+================================================================================
+2026-04-30 00:21:12,872 - INFO - [STEP 2] VERIFY OTP
+2026-04-30 00:21:12,872 - INFO - ================================================================================
+2026-04-30 00:21:12,873 - INFO - 
+================================================================================
+2026-04-30 00:21:12,873 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:21:12,873 - INFO - ================================================================================
+2026-04-30 00:21:12,873 - INFO - Method: POST
+2026-04-30 00:21:12,873 - INFO - URL: https://marketing.moceansms.com/api/signup/verify
+2026-04-30 00:21:12,873 - INFO - 
+Request Headers:
+2026-04-30 00:21:12,873 - INFO -   content-type: application/json
+2026-04-30 00:21:12,873 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:21:12,873 - INFO - 
+Request Body (JSON):
+2026-04-30 00:21:12,873 - INFO -   {
+  "otp_code": "*****",
+  "token": "3095%7CMw5FhBxKm4OykK8Y5Fe6QVZVNZ7ohlKDUjDVGkLsfeff8331"
+}
+2026-04-30 00:21:13,348 - INFO - 
+================================================================================
+2026-04-30 00:21:13,348 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:21:13,348 - INFO - ================================================================================
+2026-04-30 00:21:13,348 - INFO - Status Code: 404
+2026-04-30 00:21:13,348 - INFO - Status Reason: Not Found
+2026-04-30 00:21:13,348 - INFO - URL: https://marketing.moceansms.com/api/signup/verify
+2026-04-30 00:21:13,348 - INFO - Content-Type: text/html; charset=utf-8
+2026-04-30 00:21:13,348 - INFO - 
+Response Headers:
+2026-04-30 00:21:13,348 - INFO -   Content-Type: text/html; charset=utf-8
+2026-04-30 00:21:13,348 - INFO - 
+Response Body (RAW - 26039 chars):
+2026-04-30 00:21:13,349 - INFO - <!DOCTYPE html><html lang="en" class="__variable_f367f3"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/b7a103c3a9020d69.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/081a0afca5a9bd20.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-4a2c50f044ec839a.js"/><script src="/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js" async=""></script><script src="/_next/static/chunks/1255-53890570d1c6663a.js" async=""></script><script src="/_next/static/chunks/main-app-f3336e172256d2ab.js" async=""></script><script src="/_next/static/chunks/1356-6900f8a8b6ac9b42.js" async=""></script><script src="/_next/static/chu
+...[TRUNCATED AT 800 CHARS]
+2026-04-30 00:21:13,349 - INFO - 
+================================================================================
+2026-04-30 00:21:13,349 - INFO - [RESPONSE ANALYSIS] Parsing OTP verification response:
+2026-04-30 00:21:13,349 - INFO - ================================================================================
+2026-04-30 00:21:13,349 - WARNING -   [-] HTTP 404 - Endpoint not found (may be Server Action, not JSON API)
+2026-04-30 00:21:13,349 - INFO - 
+================================================================================
+2026-04-30 00:22:24,868 - INFO - 
+================================================================================
+2026-04-30 00:22:24,869 - INFO - [STEP 1] SIGN-IN
+2026-04-30 00:22:24,869 - INFO - ================================================================================
+2026-04-30 00:22:24,869 - INFO - 
+================================================================================
+2026-04-30 00:22:24,869 - INFO - [REQUEST DEBUG] EXACT REQUEST BEING SENT:
+2026-04-30 00:22:24,869 - INFO - ================================================================================
+2026-04-30 00:22:24,869 - INFO - Method: POST
+2026-04-30 00:22:24,869 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:22:24,870 - INFO - 
+Request Headers:
+2026-04-30 00:22:24,870 - INFO -   next-action: 40e92530aa479fd9a04b80dde42c66010d18f4ff51
+2026-04-30 00:22:24,870 - INFO -   accept: text/x-component
+2026-04-30 00:22:24,870 - INFO -   content-type: text/plain;charset=UTF-8
+2026-04-30 00:22:24,870 - INFO -   origin: https://marketing.moceansms.com
+2026-04-30 00:22:24,870 - INFO -   referer: https://marketing.moceansms.com/signin
+2026-04-30 00:22:24,870 - INFO - 
+Request Body (JSON wire format):
+2026-04-30 00:22:24,870 - INFO -   [
+  {
+    "username": "wkreal88246",
+    "password": "*****",
+    "captcha_token": "1.TYPUNR724t2gYXTbCW..."
+  }
+]
+2026-04-30 00:22:25,647 - INFO - 
+================================================================================
+2026-04-30 00:22:25,647 - INFO - [RESPONSE DEBUG] EXACT RESPONSE RECEIVED:
+2026-04-30 00:22:25,647 - INFO - ================================================================================
+2026-04-30 00:22:25,647 - INFO - Status Code: 200
+2026-04-30 00:22:25,647 - INFO - Status Reason: OK
+2026-04-30 00:22:25,647 - INFO - URL: https://marketing.moceansms.com/signin
+2026-04-30 00:22:25,647 - INFO - Content-Type: text/x-component
+2026-04-30 00:22:25,647 - INFO - 
+Response Headers:
+2026-04-30 00:22:25,648 - INFO -   Content-Type: text/x-component
+2026-04-30 00:22:25,648 - INFO -   x-action-revalidated: [[],0,0]
+2026-04-30 00:22:25,648 - INFO - 
+Response Body (RAW - 250 chars):
+2026-04-30 00:22:25,648 - INFO - 0:{"a":"$@1","f":"","b":"UNbSvwqLxXDaRjsHURXCU"}
+1:{"success":false,"message":"Recaptcha Invalid","errors":{},"status":401,"code":null,"subcode":null,"retry_after":"$undefined","throttle_key":null,"request_id":"98217eba-1945-4d8e-b45e-361864284820"}
+
+2026-04-30 00:22:25,648 - INFO - 
+================================================================================
+2026-04-30 00:22:25,648 - INFO - [RESPONSE ANALYSIS] Parsing Next.js RSC response:
+2026-04-30 00:22:25,648 - INFO - ================================================================================
+2026-04-30 00:22:25,648 - ERROR -   [-] Recaptcha Invalid
+2026-04-30 00:22:25,648 - INFO - 
+================================================================================

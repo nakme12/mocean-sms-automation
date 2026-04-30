@@ -1,0 +1,35 @@
+2026-04-30 00:34:55,476 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-30 00:34:55,476 - INFO - ║                      MOCEANSMS COMPLETE AUTOMATION FLOW                      ║
+2026-04-30 00:34:55,476 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-30 00:34:55,477 - INFO - [*] Session initialized with stealth headers
+2026-04-30 00:34:55,477 - INFO - 
+[*] Skipping signup phase
+2026-04-30 00:34:55,477 - INFO - 
+[?] OTP required for verification
+2026-04-30 00:35:04,366 - INFO - [*] Session initialized with stealth headers
+2026-04-30 00:35:04,366 - INFO - 
+================================================================================
+2026-04-30 00:35:04,366 - INFO - [PHASE 3] SIGNIN
+2026-04-30 00:35:04,366 - INFO - ================================================================================
+2026-04-30 00:35:04,366 - INFO - [*] Endpoint: https://dashboard.moceansms.com/api/login
+2026-04-30 00:35:04,366 - INFO - [*] CAPTCHA: Required (fresh solve every time)
+2026-04-30 00:35:04,366 - INFO - 
+[*] Signin Attempt 1/1
+2026-04-30 00:35:04,366 - INFO - [*] Solving Cloudflare Turnstile...
+2026-04-30 00:35:04,367 - INFO - [*] Solving Turnstile CAPTCHA for https://dashboard.moceansms.com/login...
+2026-04-30 00:35:35,345 - ERROR - [-] CAPTCHA solve failed: ERROR_RECAPTCHA_INVALID_SITEKEY
+2026-04-30 00:35:35,346 - ERROR - [-] CAPTCHA solving failed
+2026-04-30 00:37:02,019 - INFO - [*] Session initialized with stealth headers
+2026-04-30 00:37:02,020 - INFO - 
+================================================================================
+2026-04-30 00:37:02,020 - INFO - [PHASE 3] SIGNIN
+2026-04-30 00:37:02,020 - INFO - ================================================================================
+2026-04-30 00:37:02,020 - INFO - [*] Endpoint: https://dashboard.moceanapi.com/api/login
+2026-04-30 00:37:02,020 - INFO - [*] CAPTCHA: Required (fresh solve every time)
+2026-04-30 00:37:02,020 - INFO - 
+[*] Signin Attempt 1/1
+2026-04-30 00:37:02,021 - INFO - [*] Solving Cloudflare Turnstile...
+2026-04-30 00:37:02,021 - INFO - [*] Solving Turnstile CAPTCHA for https://dashboard.moceanapi.com/login...
+2026-04-30 00:37:26,551 - ERROR - [-] CAPTCHA solve failed: ERROR_RECAPTCHA_INVALID_SITEKEY
+2026-04-30 00:37:26,552 - ERROR - [-] CAPTCHA solving failed
