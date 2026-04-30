@@ -1,6 +1,4 @@
 # Secrets / local config
-.env
-.env.local
 .env.*.local
 
 # Node
@@ -24,5 +22,5 @@ debug.html
 # OS / editor
 .DS_Store
 .idea/
-.vscode/
 *.swp
+config.bat

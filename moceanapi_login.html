@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="title" content="Log in to MoceanAPI | Messaging Dashboard" />
+<meta name="description" content="Log in to your MoceanAPI account to send SMS, manage campaigns, and view delivery reports. Secure, reliable, and easy-to-use SMS gateway." />
+<meta name="keywords" content="sms, app, integration, API, developer, 2 way sms, notification, free trial, worldwide, Restful API, rest api, sms gateway, mocean" />
+<meta name="language" content="en" />
+<meta name="robots" content="index, follow" />
+        <title>Log in to MoceanAPI | Messaging Dashboard</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/jquery/overlay.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/thirdparty/recaptcha.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/src/slidercaptcha.css" />
+        <script type="text/javascript" src="/js/jquery/moment.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.textarearesizer.compressed.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.collapsible-v.2.1.3.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap/bootstrap.min.js?v=202001131640"></script>
+<script type="text/javascript" src="/js/bootstrap/bootstrap-dialog.js?v=201704111016"></script>
+<script type="text/javascript" src="/js/plugins/dataTables/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script type="text/javascript" src="/js/plugins/pace/pace.min.js"></script>
+<script type="text/javascript" src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="/js/inspinia.js"></script>
+<script type="text/javascript" src="/js/plugins/tableHeadFixer/tableHeadFixer.js"></script>
+<script type="text/javascript" src="/js/plugins/datepicker/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="/js/plugins/iCheck/icheck.min.js"></script>
+<script type="text/javascript" src="/js/plugins/chosen/chosen.jquery.js"></script>
+<script type="text/javascript" src="/js/jquery/ajaxfileupload.js"></script>
+<script type="text/javascript" src="/js/plugins/summernote/summernote.min.js"></script>
+<script type="text/javascript" src="/js/plugins/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="/js/browser.js"></script>
+<script type="text/javascript" src="/js/modulejs/main.js?v=202404301200"></script>
+<script type="text/javascript" src="/js/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="/js/jquery/overlay.min.js"></script>
+<script type="text/javascript" src="/js/jquery/toolbox.expose.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.truncator.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.corner.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/src/longbow.slidercaptcha.js"></script>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PCH7NP2');</script>
+<!-- End Google Tag Manager -->
+ 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZJZC75MTL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JZJZC75MTL');
+</script>
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet">
+    <style>
+        #wrapper {
+            width: 95%;
+            background: #fff;
+            border: 1px solid #dbe4e7;
+            border-radius: 5px;
+            margin: 0 auto 1em;
+            display: table;
+        }
+        #menu{
+            width: 25%;
+            padding: 2% 3%;
+            bottom: 0;
+            color: #fff;
+            border-right: 1px solid #dbe4e7;
+            vertical-align: top;
+            display: table-cell;
+            background: #f2f7f8;
+            border-radius: 4px 0 0 4px;
+            height: 100%;
+        }
+        #content{
+            width: 100%;
+            padding: 2% 3%;
+            /* float: left; */
+            vertical-align: top;
+            position:relative;
+            height: 800px;
+            overflow-y:auto;
+        }
+        #menu li.depth-1 a {
+        }        
+        #menu li.depth-2 a {
+        font-weight: 400;
+        /* font-size: 11px; */
+        line-height: 25px;
+        }     
+        h3.title-bar{
+            border:0;
+            background-color: #EFEFEF;
+            padding: 5px;
+        }
+        .depth-3{
+            
+        }
+        .ul-d-2{
+            padding-left: 20px;
+        }
+        .newline{
+            padding-top: 15px;
+        }
+        .optional{
+            color: #b5b5b5;
+            font-family: 'ProximaNovaBold', 'ProximaNova', Arial, Helvetica, sans-serif;
+            line-height: 28px;
+            font-weight: bold;
+        }
+        .wbox{
+            margin: 10px;
+            background: white;
+            border: 1px solid #d4d4d4;
+            color: #099bd8;
+            padding: 0 10px;
+            font-size: 14px;
+            line-height: 28px;
+            border-radius: 5px;
+            display: inline-block;
+            font-family: 'monaco';            
+        }
+        
+        input, select, textarea {
+            background: #fff;
+            border-top: 1px solid #999;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            border-left: 1px solid #999;
+            color: #333;
+            padding: 4px;
+        }        
+                
+    </style>
+</head>
+<body id="page-top" style="background-color: #F3F3F4;">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCH7NP2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-scroll" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+
+
+    <h1 class="logo"><b><a id="logoid" style="text-decoration: none;color:#0747a6 !important;" href="/">MOCEAN</a></b></h1>
+                </div>
+            </div>
+        </nav>
+</div>
+
+<div style="padding-top: 100px !important;">
+    
+
+<div align="center">
+<h1>Login</h1>
+<br>
+</div>
+
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-3">
+        <div class="ibox float-e-margins" style="margin-left:5%;">
+            <div id="user-login" class="ibox-content user">
+                <form action="/company/loginValidate" method="post"  class="form-horizontal">
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Username :</label>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <input type="text" name="user_login[username]" id="user_login_username" size='20' placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Password :</label>
+                            <div class="col-sm-7">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <input type="password" name="user_login[password]" id="user_login_password" size='20' placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <input type="hidden" name="user_login[id]" id="user_login_id" />
+                        <div class="form-group">
+                                                    </div>
+
+                        <div class="form-group">
+                                                        <div class="col-sm-8">
+                                <p class="text-muted" align="center" style="margin-left:3%;margin-top:5px;">
+                                    Do not have an account? &nbsp; <a href="/register">Create an account</a>
+                                </p>
+                            </div>
+                                                        <div class="col-sm-7 col-sm-offset-3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary block full-width m-b" style="width:200px;margin-top:7px;">Login</button><br>
+                                    </div>
+                                </div>
+                                                                <div class="row">
+                                    <div class="col-sm-3" align="center" style="margin-left:3%;">
+                                        <a href="/company/resetPasswordValidate">Forgot password?</a><br><br>
+                                    </div>
+                                </div>
+                                                            </div>
+
+
+                        </div>
+
+                        <input type="hidden" name="_csrf_token" value="ede943f6c4f4c12c11968f615b409635" id="cfg_account_profile__csrf_token" />
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+// <![CDATA[
+$(function() {
+    $(document).ready(function () {
+        //$.noConflict();
+        // jQuery Validation
+        $('#user-login form').validate({
+            rules: {
+                'user_login[username]': { 'required': true },
+                'user_login[password]': { 'required': true }
+            },
+            messages: {
+                'user_login[username]': { 'required': 'Username field is required.' },
+                'user_login[password]': { 'required': 'Password field is required.' }
+            },
+            errorClass: 'error',
+            validClass: 'ok',
+            errorElement: 'span'
+        });
+        $("#user_login_username").focus();
+    });
+
+    $('form').submit(function () {
+        if(!human){
+            $("#captcha-msg").show();
+            return false;
+        }
+    });
+});
+
+// ]]>
+</script>
+<div class="m-t-lg">&nbsp;</div>
+<style>
+    .footer{
+        bottom: 0;
+        z-index: 99;
+        text-align: center;
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+</style>
+<div class="footer">
+    <!--<div class="pull-right">
+        Example text
+    </div>-->
+    <div align="center">
+        <small>
+            Copyright © 2026 
+                        . All Rights Reserved.
+						&nbsp; Send us your
+			<a href="">feedback</a>
+					</small>
+    </div>
+</div>
+</div>
+
+
+<style>
+.table_links {
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+}
+
+.table_h {
+    color: #999;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.table_d {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.table_d:hover {
+    color: #1ab394;
+    transition-duration: 0.5s;
+}
+
+.li_margin {
+    margin-bottom:7px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display:flex
+    padding:0 30px 10px;
+    margin:auto;
+    flex-direction:column;
+    justify-content:center
+}
+
+.last_line {
+    background-color: rgb(44, 62, 80);
+}
+
+.foot {
+    background-color: rgb(44, 62, 80);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.last_word { 
+    color: #999;
+}
+
+.last_word_link {
+    color: white;
+}
+
+</style>
+
+    <section class="PricingFooter">
+    <div class="footer" align="center" style="">
+    
+    
+    <div align="center" class="last_line">
+        <font class="last_word">
+        <small>
+            Copyright © 2026 
+                        . All Rights Reserved.
+                        &nbsp; Send us your
+            <a href="mailto:support@moceanapi.com"><font class="last_word_link">feedback</font></a>
+                    </small>
+        </font>
+    </div>
+
+</div>
+</section>
+
+<!--         <small>Copyright © 2017 .. All Rights Reserved. Send us your <a href="mailto:"><font class="last_word_link">feedback</font></a></small> -->
+
+
+
+
+
+
+<div class="loading-modal"><!-- Place at bottom of page --></div>
+
+</body>
+</html>
+
+
+ 

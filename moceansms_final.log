@@ -1,0 +1,81 @@
+2026-04-30 11:08:32,232 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-30 11:08:32,233 - INFO - ║           MOCEANSMS AUTOMATION (Option A - marketing.moceansms.com)          ║
+2026-04-30 11:08:32,233 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-30 11:08:32,233 - INFO - [*] Session initialized with stealth headers
+2026-04-30 11:08:32,233 - INFO - 
+================================================================================
+2026-04-30 11:08:32,233 - INFO - [PHASE 1] SIGNUP
+2026-04-30 11:08:32,233 - INFO - ================================================================================
+2026-04-30 11:08:32,233 - INFO - [*] Entry: https://marketing.moceansms.com/signup
+2026-04-30 11:08:55,194 - ERROR - [-] SIGNUP FAILED: {'success': False, 'status': 200, 'otp_verified': False, 'stage': 'complete', 'error': 'registration_failed'}
+2026-04-30 11:08:55,198 - ERROR - 
+[✗] FLOW STOPPED: Signup failed
+2026-04-30 11:09:04,511 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-30 11:09:04,511 - INFO - ║           MOCEANSMS AUTOMATION (Option A - marketing.moceansms.com)          ║
+2026-04-30 11:09:04,511 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-30 11:09:04,511 - INFO - [*] Session initialized with stealth headers
+2026-04-30 11:09:04,512 - INFO - 
+================================================================================
+2026-04-30 11:09:04,512 - INFO - [PHASE 1] SIGNUP
+2026-04-30 11:09:04,512 - INFO - ================================================================================
+2026-04-30 11:09:04,512 - INFO - [*] Entry: https://marketing.moceansms.com/signup
+2026-04-30 11:10:44,396 - ERROR - [-] SIGNUP FAILED: {'success': False, 'status': 200, 'otp_verified': False, 'stage': 'complete', 'error': 'registration_failed'}
+2026-04-30 11:10:44,399 - ERROR - 
+[✗] FLOW STOPPED: Signup failed
+2026-04-30 11:11:09,089 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-30 11:11:09,089 - INFO - ║           MOCEANSMS AUTOMATION (Option A - marketing.moceansms.com)          ║
+2026-04-30 11:11:09,089 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-30 11:11:09,089 - INFO - [*] Proxy: socks5://change5.owlproxy.com:7778:njTBtEIYDd60_custom_zone_MY_st__city_sid_5671...
+2026-04-30 11:11:09,089 - INFO - [*] Session initialized with stealth headers
+2026-04-30 11:11:09,089 - INFO - 
+[*] Skipping signup
+2026-04-30 11:11:09,089 - INFO - 
+[?] OTP required
+2026-04-30 11:11:13,776 - INFO - [*] Session initialized with stealth headers
+2026-04-30 11:11:13,776 - INFO - 
+================================================================================
+2026-04-30 11:11:13,776 - INFO - [PHASE 3] SIGNIN
+2026-04-30 11:11:13,776 - INFO - ================================================================================
+2026-04-30 11:11:13,776 - INFO - [*] Entry: https://marketing.moceansms.com/api/login
+2026-04-30 11:11:13,776 - INFO - [*] Redirect: https://dashboard.moceanapi.com
+2026-04-30 11:11:13,776 - INFO - 
+[*] Attempt 1/1
+2026-04-30 11:11:13,776 - INFO - [*] Solving Cloudflare Turnstile...
+2026-04-30 11:11:13,776 - INFO - [*] Solving Turnstile for https://marketing.moceansms.com/login...
+2026-04-30 11:11:31,647 - INFO - [+] CAPTCHA solved: 1.k277WkfcOGokCAiUbAezyO1NGmL_...
+2026-04-30 11:11:31,648 - INFO - [*] POST to https://marketing.moceansms.com/api/login
+2026-04-30 11:11:31,648 - INFO -     Username: wkripant
+2026-04-30 11:11:31,648 - INFO -     CAPTCHA: 1.k277WkfcOGokCAiUbAezyO1NGmL_...
+2026-04-30 11:11:36,262 - INFO - [*] Response Status: 404
+2026-04-30 11:11:36,262 - INFO - [*] Location: N/A
+2026-04-30 11:11:36,262 - ERROR - [-] SIGNIN FAILED: 404
+2026-04-30 11:12:05,345 - INFO - 
+╔══════════════════════════════════════════════════════════════════════════════╗
+2026-04-30 11:12:05,346 - INFO - ║           MOCEANSMS AUTOMATION (Option A - marketing.moceansms.com)          ║
+2026-04-30 11:12:05,346 - INFO - ╚══════════════════════════════════════════════════════════════════════════════╝
+2026-04-30 11:12:05,346 - INFO - [*] Session initialized with stealth headers
+2026-04-30 11:12:05,346 - INFO - 
+[*] Skipping signup
+2026-04-30 11:12:05,346 - INFO - 
+[?] OTP required
+2026-04-30 11:12:09,801 - INFO - [*] Session initialized with stealth headers
+2026-04-30 11:12:09,802 - INFO - 
+================================================================================
+2026-04-30 11:12:09,802 - INFO - [PHASE 3] SIGNIN
+2026-04-30 11:12:09,802 - INFO - ================================================================================
+2026-04-30 11:12:09,802 - INFO - [*] Endpoint: https://marketing.moceansms.com/signin
+2026-04-30 11:12:09,802 - INFO - [*] Redirect: https://dashboard.moceanapi.com
+2026-04-30 11:12:09,802 - INFO - 
+[*] Attempt 1/1
+2026-04-30 11:12:09,802 - INFO - [*] Solving Cloudflare Turnstile...
+2026-04-30 11:12:09,802 - INFO - [*] Solving Turnstile for https://marketing.moceansms.com/login...
+2026-04-30 11:12:21,429 - INFO - [+] CAPTCHA solved: 1.MJh2X_WFdMeGyrZeqHcgUFzwsroW...
+2026-04-30 11:12:21,429 - INFO - [*] POST to https://marketing.moceansms.com/signin
+2026-04-30 11:12:21,429 - INFO -     Username: wkripant
+2026-04-30 11:12:21,429 - INFO -     CAPTCHA: 1.MJh2X_WFdMeGyrZeqHcgUFzwsroW...
+2026-04-30 11:12:22,191 - INFO - [*] Response Status: 200
+2026-04-30 11:12:22,192 - INFO - [*] Location: N/A
+2026-04-30 11:12:22,192 - ERROR - [-] SIGNIN FAILED: 200
